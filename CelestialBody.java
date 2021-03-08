@@ -9,62 +9,62 @@ public class CelestialBody
     private ArrayList<String> compositionNames = new ArrayList<String>();
     private ArrayList<Integer> compositionPercentages = new ArrayList<Integer>();
     
-    public String getName()
+    private String getName()
     {
         return name;
     }
     
-    public float getMass()
+    private float getMass()
     {
         return mass;
     }
     
-    public float getAge()
+    private float getAge()
     {
         return age;
     }
     
-    public int getShape()
+    private int getShape()
     {
         return shape;
     }
     
-    public void setName(String name)
+    private void setName(String name)
     {
         this.name = name;
     }       
     
-    public void setMass(float mass)
+    private void setMass(float mass)
     {
         this.mass = mass;
     }
     
-    public void setAge(float age)
+    private void setAge(float age)
     {
         this.age = age;
     }
     
-    public void setSize(float size)
+    private void setSize(float size)
     {
         this.size = size;
     }
     
-    public void setShape(int shape)
+    private void setShape(int shape)
     {
         this.shape = shape;
     }     
     
-    public String getCompositionName(int index)
+    private String getCompositionName(int index)
     {
         return compositionNames[index];
     }
     
-    public int getCompositionPercent(int index)
+    private int getCompositionPercent(int index)
     {
         return compositionPercentages[index];
     }
     
-    public int getComposition(String name, int percent, int index)
+    private int getComposition(String name, int percent, int index)
     {
         
     }
