@@ -16,7 +16,7 @@ public class Planet {
 	private int dst;
 	
 	Planet() {
-
+		// 
 	}
 
 	private int getType() {

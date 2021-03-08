@@ -1,4 +1,5 @@
 public class UnstableStellarSystem extends StellarSystem {
+  
     private int transferMass(Star giver, Star reciever) {
 
     }
